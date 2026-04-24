@@ -1,6 +1,165 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Krish Beladiya | Full Stack Developer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #0b0f1a;
+    color: #fff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+nav a {
+    margin-left: 20px;
+    color: #aaa;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+.hero {
+    padding: 120px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.hero p {
+    color: #bbb;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.btn {
+    margin-top: 30px;
+    display: inline-block;
+    padding: 12px 25px;
+    background: #6366f1;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+}
+
+.section {
+    padding: 80px 0;
+}
+
+.card {
+    background: #111827;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.skills span {
+    display: inline-block;
+    background: #1f2937;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    color: #888;
+}
+</style>
+
+</head>
+
 <body>
-  <h1>Hello, I'm Krish!</h1>
+
+<header class="container">
+    <h2>Krish Beladiya</h2>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero container">
+    <h1>Building Scalable Backend Systems & Microservices</h1>
+    <p>
+        Full Stack Developer specializing in backend architecture, AWS, and NestJS.
+        Focused on building scalable systems using microservices and modern cloud infrastructure.
+    </p>
+    <a href="#work" class="btn">View Work</a>
+</section>
+
+<section id="about" class="section container">
+    <h2>About</h2>
+    <p>
+        I am Krish Beladiya, a Full Stack Developer at Gothi Tech.
+        I specialize in backend development, microservices architecture, and cloud-based solutions.
+        My focus is on building scalable, efficient, and production-ready systems.
+    </p>
+</section>
+
+<section id="work" class="section container">
+    <h2>Work</h2>
+
+    <div class="card">
+        <h3>Microservices Architecture System</h3>
+        <p>
+            Designed scalable backend architecture using NestJS and microservices pattern.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Cloud-Based Backend System</h3>
+        <p>
+            Built and deployed backend services using AWS for high availability and scalability.
+        </p>
+    </div>
+
+</section>
+
+<section id="skills" class="section container">
+    <h2>Skills</h2>
+    <div class="skills">
+        <span>Node.js</span>
+        <span>NestJS</span>
+        <span>AWS</span>
+        <span>Microservices</span>
+        <span>JavaScript</span>
+        <span>Backend Architecture</span>
+    </div>
+</section>
+
+<section id="contact" class="section container">
+    <h2>Contact</h2>
+    <p>Email: your@email.com</p>
+    <p>LinkedIn: linkedin.com/in/krish-beladiya</p>
+</section>
+
+<footer>
+    <p>© 2026 Krish Beladiya</p>
+</footer>
+
 </body>
 </html>
